@@ -1,6 +1,32 @@
 # 8. Exercícios e Desafios Práticos
 
 **8.1 Criando um layout de cabeçalho e rodapé flexível**
+```
+<div class="container">
+  <header>Header</header>
+  <main>Main Content</main>
+  <footer>Footer</footer>
+</div>
+```
+```
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header, footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+```
 
 Crie um layout com cabeçalho e rodapé que se ajustem ao tamanho da tela.
 
