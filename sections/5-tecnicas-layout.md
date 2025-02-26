@@ -4,6 +4,17 @@
 
 Um layout de coluna responsivo é ideal para organizar conteúdo verticalmente, como em páginas de blog ou painéis de administração. Com Flexbox, você pode criar colunas que se ajustam automaticamente ao tamanho da tela.
 
+## 5.1 Criando um layout de coluna responsivo
+
+Aqui está um exemplo de código para criar um layout de coluna responsivo:
+
+```html
+<div class="container">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+```
 ​	5.2 Criando um layout de linha responsivo
 
 Um layout de linha é perfeito para menus de navegação, galerias de imagens ou qualquer conteúdo que precise ser organizado horizontalmente. Com Flexbox, você pode garantir que os itens se ajustem ao espaço disponível.
