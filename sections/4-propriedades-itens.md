@@ -12,7 +12,7 @@
 
       4.3 **`flex-shrink` – Redução proporcional dos itens**
 
-      A propriedade **flex-shrink **define o fator de encolhimento flex de um item flex. Se o tamanho de todos os itens flex for maior que o contêiner flex, os [itens flex podem encolher](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Controlling_ratios_of_flex_items_along_the_main_axis#the_flex-shrink_property) para se ajustar de acordo com seu valor. [O espaço livre negativo](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Controlling_ratios_of_flex_items_along_the_main_axis#positive_and_negative_free_space) de cada linha flex é distribuído entre os itens flex da linha que têm um valor maior que .**`flex-shrink`** `flex-shrink``flex-shrink``0`
+      A propriedade **flex-shrink **define o fator de encolhimento flex de um item flex. Se o tamanho de todos os itens flex for maior que o contêiner flex, os itens flex podem encolher para se ajustar de acordo com seu valor. O espaço livre negativo de cada linha flex é distribuído entre os itens flex da linha que têm um valor maior que .**`flex-shrink`** `flex-shrink``flex-shrink``0`
 
       4.4 **`flex-basis` – Tamanho inicial do item**
 
