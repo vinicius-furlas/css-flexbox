@@ -43,5 +43,7 @@ Com Flexbox, você pode criar layouts que se ajustam automaticamente ao espaço 
 ```
 
 ## 6.5 Testando responsividade com ferramentas do navegador
+As ferramentas de desenvolvedor (DevTools) dos navegadores são essenciais para testar e ajustar a responsividade do seu layout. Elas permitem simular diferentes tamanhos de tela, inspecionar elementos e depurar problemas.
+
 
 
