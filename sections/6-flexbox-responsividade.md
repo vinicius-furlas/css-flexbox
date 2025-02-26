@@ -1,17 +1,17 @@
 # 6. Flexbox e Responsividade
 
 ## 6.1 Uso de `flex-wrap` para adaptação em telas menores
-Como evitar sobreposição de itens em telas menores.
+A propriedade flex-wrap permite que os itens quebrem para a próxima linha quando o espaço é insuficiente, garantindo que o layout se ajuste a telas menores.
 
 ## 6.2 Combinando Flexbox com Media Queries
-Técnicas para layouts responsivos avançados.
+Media Queries permitem ajustar o layout para diferentes tamanhos de tela. Combinado com Flexbox, você pode criar designs totalmente responsivos.
 
 ## 6.3 Melhorando a usabilidade em dispositivos móveis
-Dicas para otimização em telas pequenas.
+Use Flexbox para criar layouts que se adaptam a dispositivos móveis, como menus colapsáveis e grids que se reorganizam automaticamente.
 
 ## 6.4 Criando layouts flexíveis sem necessidade de Media Queries
-Como aproveitar ao máximo o Flexbox.
+Com Flexbox, você pode criar layouts que se ajustam automaticamente ao espaço disponível, reduzindo a necessidade de Media Queries.
 
 ## 6.5 Testando responsividade com ferramentas do navegador
-Uso do DevTools para depuração.
+Use as ferramentas de desenvolvedor do navegador (DevTools) para testar e ajustar a responsividade do seu layout.
 
