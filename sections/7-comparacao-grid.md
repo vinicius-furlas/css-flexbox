@@ -7,3 +7,18 @@ Ideal para layouts unidimensionais (uma linha ou uma coluna). Focado em distribu
 **CSS Grid:**
 
 Ideal para layouts bidimensionais (linhas e colunas). Permite criar layouts complexos com controle total sobre linhas e colunas.
+
+**7.2 Quando usar Flexbox e quando usar Grid**
+Use Flexbox:
+
+Para alinhar itens em uma única direção (linha ou coluna).
+
+Para distribuir espaço entre itens de forma dinâmica.
+
+Para criar componentes como menus, barras de navegação ou cards.
+
+Use CSS Grid:
+
+Para layouts complexos com linhas e colunas.
+
+Para criar grids de imagens, galerias ou layouts de página inteira.
