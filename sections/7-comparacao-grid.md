@@ -9,7 +9,8 @@ Ideal para layouts unidimensionais (uma linha ou uma coluna). Focado em distribu
 
 Ideal para layouts bidimensionais (linhas e colunas). Permite criar layouts complexos com controle total sobre linhas e colunas.
 
-'''/* Flexbox */
+'''
+/* Flexbox */
 .flex-container {
   display: flex;
   justify-content: space-between;
