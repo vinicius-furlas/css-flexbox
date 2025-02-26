@@ -23,3 +23,11 @@
 -Evite layouts excessivamente complexos.
 
 -Teste em dispositivos móveis e desktops.
+
+**9.4 Considerações finais e próximos passos no estudo de CSS**
+
+-Explore CSS Grid para layouts mais complexos.
+
+-Aprenda sobre animações CSS e transições.
+
+-Pratique criando projetos reais.
