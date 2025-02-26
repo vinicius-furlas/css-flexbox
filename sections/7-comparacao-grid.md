@@ -9,7 +9,6 @@ Ideal para layouts unidimensionais (uma linha ou uma coluna). Focado em distribu
 
 Ideal para layouts bidimensionais (linhas e colunas). Permite criar layouts complexos com controle total sobre linhas e colunas.
 
-
 **7.2 Quando usar Flexbox e quando usar Grid**
 
 **Use Flexbox:**
@@ -25,7 +24,6 @@ Para criar componentes como menus, barras de navegação ou cards.
 Para layouts complexos com linhas e colunas.
 
 Para criar grids de imagens, galerias ou layouts de página inteira.
-
 
 **7.3 Combinação de Flexbox e Grid para layouts avançados**
 Você pode combinar Flexbox e Grid para criar layouts ainda mais poderosos. Por exemplo, use Grid para o layout geral da página e Flexbox para alinhar itens dentro de cada célula do grid.
