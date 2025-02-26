@@ -18,6 +18,7 @@ Com o inline-block você terá o comportamento de um elemento inline, porém  pe
 
 
 **Referências:**
+
 https://www.alura.com.br/artigos/css-guia-do-flexbox?srsltid=AfmBOorLJZbvFAo_-Wu3ntl8WnZhZ-XlU1mQK5T7BSqC9NDkWA4VfRVI
 https://dev.to/ethanmgustafson/css-float-flexbox-14fg
 https://zerotomastery-io.translate.goog/blog/css-grid-vs-flexbox/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc
