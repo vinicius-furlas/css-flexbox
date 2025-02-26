@@ -1,10 +1,13 @@
 🔹 **1.1 O que é Flexbox?**
+
     Por muito tempo, as únicas  ferramentas disponíveis para criar leiautes em CSS e posicionar  elementos com boa compatibilidade entre browsers eram float e position.  Porém, essas ferramentas possuem algumas limitações muito frustrantes,  especialmente no que diz respeito à responsividade. Algumas tarefas que  consideramos básicas em um leiaute, como centralização vertical de um  elemento-filho com relação a um elemento-pai ou fazer com que  elementos-filhos ocupem a mesma quantidade de espaço, ou colunas terem o mesmo tamanho independente da quantidade de conteúdo interno, eram  impossíveis ou muito difíceis de serem manejadas com floats ou position, ao menos de forma prática e flexível. A ferramenta Flexbox (de Flexible Box) foi criada para tornar essas tarefas mais simples e funcionais: os filhos de um elemento com Flexbox podem se posicionar em qualquer  direção e pode ter dimensões flexíveis para se adaptar.
 
 🔹 **1.2 Quando usar Flexbox?**
+
     CSS Flexible Box Layout é um módulo do CSS que define um layout  multicoluna otimizado para o design de interfaces de usuário, para isso  busca lidar com o layout dos itens de maneira unidimensional. No modelo  de layout do Flexbox, os filhos de um contêiner flex podem ser dispostos em qualquer direção, e podem "flexibilizar" seus tamanhos, crescendo  para preencher o espaço vazio ou diminuindo para evitar o  transbordamento do elemento pai. O alinhamento horizontal e vertical dos filhos podem ser facilmente manipulados.
 
 🔹 **1.3 Diferença entre Flexbox e outras técnicas de layout (Float, Grid, Inline-Block)**
+
     **Float:**
 O que é floatPropriedade essencialmente "flutua" um elemento à esquerda ou à direita do seu recipiente.
 Também remove esse elemento do fluxo normal do documento. Por exemplo, se você floatUma imagem que tem uma legenda, sua legenda acabará enchendo o  espaço ao redor da imagem. A imagem é removida do fluxo normal do  documento
