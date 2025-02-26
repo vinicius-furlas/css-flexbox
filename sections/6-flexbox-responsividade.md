@@ -32,7 +32,15 @@ A usabilidade em dispositivos móveis é essencial para garantir que seu site se
 ```
 
 ## 6.4 Criando layouts flexíveis sem necessidade de Media Queries
-
+Com Flexbox, você pode criar layouts que se ajustam automaticamente ao espaço disponível, reduzindo a necessidade de Media Queries. Isso é possível usando propriedades como flex-grow, flex-shrink e flex-basis.
+```
+.item {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 1px solid #ccc;
+  flex: 1 1 auto; /* Itens crescem e encolhem conforme o espaço */
+}
+```
 
 ## 6.5 Testando responsividade com ferramentas do navegador
 
