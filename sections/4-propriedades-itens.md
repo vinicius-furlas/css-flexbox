@@ -28,6 +28,25 @@
       A propriedade **flex-grow** define o fator de crescimento flexível, que especifica quanto do **espaço livre positivo **do contêiner flexível , se houver, deve ser atribuído ao **tamanho** principal do item flexível .**`flex-grow`** 
 
       Quando o tamanho principal do flex-container é maior que os tamanhos  principais combinados de seus itens flexíveis, esse espaço livre  positivo pode ser distribuído entre os itens flexíveis, com o  crescimento de cada item sendo seu valor de fator de crescimento como  uma proporção da soma total de todos os fatores de crescimento flexível  dos itens flexíveis.
+    ```
+    <div class="container">
+     <div class="item" style="flex-grow: 1">Item 1</div>
+     <div class="item" style="flex-grow: 2">Item 2</div>
+     <div class="item" style="flex-grow: 1">Item 3</div>
+    </div>
+    ```
+    ```
+    .container {
+      display: flex;
+      gap: 10px;
+    }
+    
+    .item {
+      background-color: #f4f4f4;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+    ```
 
       4.3 **`flex-shrink` – Redução proporcional dos itens**
 
