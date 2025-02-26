@@ -15,3 +15,6 @@ Crie um formulário com campos alinhados e espaçados.
 **8.4 Criando um card de perfil utilizando Flexbox**
 
 Crie um card de perfil com foto, nome e descrição.
+
+**8.5 Desafio: Criando uma página de login usando apenas Flexbox**
+Crie uma página de login com campos de entrada e botão de envio.
