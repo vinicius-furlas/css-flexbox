@@ -12,3 +12,6 @@ Crie uma galeria de imagens que se ajuste ao tamanho da tela.
 
 Crie um formulário com campos alinhados e espaçados.
 
+**8.4 Criando um card de perfil utilizando Flexbox**
+
+Crie um card de perfil com foto, nome e descrição.
