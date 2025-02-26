@@ -77,7 +77,25 @@
       4.4 **`flex-basis` – Tamanho inicial do item**
 
       A propriedade **flex-basis** define o tamanho principal inicial de um item flexível. Ele define o tamanho da caixa de conteúdo, a menos que seja definido de outra forma com o dimensionamento da caixa.
-
+    ```
+    <div class="container">
+      <div class="item" style="flex-basis: 100px">Item 1</div>
+      <div class="item" style="flex-basis: 200px">Item 2</div>
+      <div class="item" style="flex-basis: 50%">Item 3</div>
+    </div>
+    ```
+    ```
+    .container {
+       display: flex;
+       gap: 10px;
+     }
+     
+     .item {
+       background-color: #f4f4f4;
+       padding: 20px;
+       border: 1px solid #ccc;
+     }
+    ```
       4.5 **`flex` – Atalho para `flex-grow`, `flex-shrink` e `flex-basis`**
 
       A propriedade flex do CSS, define como um ítem será posicionado para no espaço disponível dentro de seu container.	a
