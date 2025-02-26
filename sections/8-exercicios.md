@@ -31,6 +31,27 @@ main {
 Crie um layout com cabeçalho e rodapé que se ajustem ao tamanho da tela.
 
 **8.2 Criando uma galeria de imagens responsiva**
+```
+<div class="galeria">
+  <img src="image1.jpg" alt="Image 1">
+  <img src="image2.jpg" alt="Image 2">
+  <img src="image3.jpg" alt="Image 3">
+</div>
+```
+
+```
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.galeria img {
+  flex: 1 1 calc(33.333% - 10px);
+  max-width: 100%;
+  height: auto;
+}
+```
 
 Crie uma galeria de imagens que se ajuste ao tamanho da tela.
 
