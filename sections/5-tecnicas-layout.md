@@ -10,12 +10,6 @@ Um layout de coluna responsivo é ideal para organizar conteúdo verticalmente, 
   flex-direction: column;
   gap: 10px; /* Espaçamento entre os itens */
 }
-
-.item {
-  background-color: #f4f4f4;
-  padding: 20px;
-  border: 1px solid #ccc;
-}
 ```
 
  
@@ -49,12 +43,6 @@ Centralizar elementos vertical e horizontalmente é uma das tarefas mais comuns 
   align-items: center; /* Centraliza verticalmente */
   height: 100vh; /* Altura total da tela */
 }
-
-.item {
-  background-color: #f4f4f4;
-  padding: 20px;
-  border: 1px solid #ccc;
-}
 ```
 
 ​	5.4 Criando um menu de navegação flexível
@@ -72,7 +60,21 @@ Um menu de navegação flexível é essencial para sites responsivos. Com Flexbo
 ​	5.5 Criando um grid de cards com Flexbox
 
 Um grid de cards é perfeito para exibir produtos, posts de blog ou qualquer conteúdo em formato de cartão. Com Flexbox, você pode criar um layout responsivo e organizado.
+```
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Espaçamento entre os cards */
+}
 
+.card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 1px solid #ccc;
+  flex: 1 1 calc(33.333% - 20px); /* 3 colunas com espaçamento */
+  box-sizing: border-box;
+}
+```
 
 **Referências:**
 
