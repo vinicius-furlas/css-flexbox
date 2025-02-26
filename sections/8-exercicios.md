@@ -17,7 +17,9 @@ Crie um formulário com campos alinhados e espaçados.
 Crie um card de perfil com foto, nome e descrição.
 
 **8.5 Desafio: Criando uma página de login usando apenas Flexbox**
+
 Crie uma página de login com campos de entrada e botão de envio.
 
 **8.6 Desafio avançado: Reproduzir um layout de site real com Flexbox**
+
 Escolha um site real e tente reproduzir seu layout usando apenas Flexbox. Isso ajudará a consolidar todos os conceitos aprendidos.
