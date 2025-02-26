@@ -8,7 +8,7 @@ Crie um layout com cabeçalho e rodapé que se ajustem ao tamanho da tela.
 
 Crie uma galeria de imagens que se ajuste ao tamanho da tela.
 
-8.3 Criando um formulário estilizado usando Flexbox
+**8.3 Criando um formulário estilizado usando Flexbox**
 
 Crie um formulário com campos alinhados e espaçados.
 
