@@ -9,6 +9,19 @@ Ideal para layouts unidimensionais (uma linha ou uma coluna). Focado em distribu
 
 Ideal para layouts bidimensionais (linhas e colunas). Permite criar layouts complexos com controle total sobre linhas e colunas.
 
+/* Flexbox */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* CSS Grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
 **7.2 Quando usar Flexbox e quando usar Grid**
 
 **Use Flexbox:**
