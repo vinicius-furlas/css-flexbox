@@ -10,8 +10,16 @@
 
 **9.2 Evitando erros comuns ao usar Flexbox**
 
-Não use flex-grow e flex-shrink sem entender seu comportamento.
+-Não use flex-grow e flex-shrink sem entender seu comportamento.
 
-Evite aninhar muitos contêineres flexíveis.
+-Evite aninhar muitos contêineres flexíveis.
 
-Teste em diferentes navegadores para garantir compatibilidade.
+-Teste em diferentes navegadores para garantir compatibilidade.
+
+**9.3 Dicas para otimizar performance e compatibilidade entre navegadores**
+
+-Use prefixos CSS para navegadores mais antigos.
+
+-Evite layouts excessivamente complexos.
+
+-Teste em dispositivos móveis e desktops.
