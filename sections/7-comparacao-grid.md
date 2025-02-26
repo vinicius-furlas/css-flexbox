@@ -73,3 +73,11 @@ Você pode combinar Flexbox e Grid para criar layouts ainda mais poderosos. Por 
 **Flexbox para Grid:** Se o layout é unidimensional, mantenha Flexbox. Se for bidimensional, considere Grid.
 
 **Grid para Flexbox:** Se o layout é simples e unidimensional, Flexbox pode ser mais fácil de implementar.
+
+
+Referências :
+
+https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods
+https://www.smashingmagazine.com/2018/04/best-practices-grid-layout/
+
