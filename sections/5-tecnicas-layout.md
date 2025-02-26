@@ -61,6 +61,14 @@ Centralizar elementos vertical e horizontalmente é uma das tarefas mais comuns 
 
 Um menu de navegação flexível é essencial para sites responsivos. Com Flexbox, você pode criar menus que se ajustam ao tamanho da tela e reorganizam os itens automaticamente.
 
+```
+.menu {
+  display: flex;
+  justify-content: space-around; /* Distribui os itens igualmente */
+  background-color: #333;
+  padding: 10px;
+}
+```
 ​	5.5 Criando um grid de cards com Flexbox
 
 Um grid de cards é perfeito para exibir produtos, posts de blog ou qualquer conteúdo em formato de cartão. Com Flexbox, você pode criar um layout responsivo e organizado.
