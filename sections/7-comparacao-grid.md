@@ -24,3 +24,6 @@ Para criar componentes como menus, barras de navegação ou cards.
 Para layouts complexos com linhas e colunas.
 
 Para criar grids de imagens, galerias ou layouts de página inteira.
+
+**7.3 Combinação de Flexbox e Grid para layouts avançados**
+Você pode combinar Flexbox e Grid para criar layouts ainda mais poderosos. Por exemplo, use Grid para o layout geral da página e Flexbox para alinhar itens dentro de cada célula do grid.
