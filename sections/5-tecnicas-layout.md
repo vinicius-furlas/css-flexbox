@@ -19,9 +19,24 @@ Um layout de coluna responsivo é ideal para organizar conteúdo verticalmente, 
 ```
 
  
-​	5.2 Criando um layout de linha responsivo
+​	**5.2 Criando um layout de linha responsivo**
 
 Um layout de linha é perfeito para menus de navegação, galerias de imagens ou qualquer conteúdo que precise ser organizado horizontalmente. Com Flexbox, você pode garantir que os itens se ajustem ao espaço disponível.
+
+```
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px; /* Espaçamento entre os itens */
+}
+
+.item {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 1px solid #ccc;
+  flex: 1; /* Distribui o espaço igualmente */
+}
+```
 
 ​	5.3 Centralizando elementos com Flexbox
 
