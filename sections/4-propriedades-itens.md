@@ -3,6 +3,25 @@
       4.1 **`order` – Definição de ordem de exibição**
 
       A propriedade **order** em css define a ordem de disposição de um item em um contêiner flex ou grid. Os itens em um contêiner são classificados por valor ascendente e, em seguida, pela ordem do código-fonte. Os itens que não recebem um valor explícito recebem o valor padrão de .**`order`** `order``order``0`
+    ```
+    <div class="container">
+    <div class="item" style="order: 3">Item 1</div>
+    <div class="item" style="order: 1">Item 2</div>
+    <div class="item" style="order: 2">Item 3</div>
+    </div>
+    ```
+    ```
+    .container {
+     display: flex;
+     gap: 10px;
+     }
+
+    .item {
+     background-color: #f4f4f4;
+     padding: 20px;
+     border: 1px solid #ccc;
+    }
+    ```
 
       4.2 **`flex-grow` – Crescimento proporcional dos itens**
 
