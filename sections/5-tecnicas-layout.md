@@ -33,3 +33,8 @@ Um menu de navegação flexível é essencial para sites responsivos. Com Flexbo
 ​	5.5 Criando um grid de cards com Flexbox
 
 Um grid de cards é perfeito para exibir produtos, posts de blog ou qualquer conteúdo em formato de cartão. Com Flexbox, você pode criar um layout responsivo e organizado.
+
+
+**Referências:**
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
