@@ -21,7 +21,15 @@ Media Queries permitem ajustar o layout para diferentes tamanhos de tela. Combin
 ```
 
 ## 6.3 Melhorando a usabilidade em dispositivos móveis
-
+A usabilidade em dispositivos móveis é essencial para garantir que seu site seja acessível e funcional em telas menores. Com Flexbox, você pode criar layouts que se adaptam automaticamente ao tamanho da tela, melhorando a experiência do usuário. Como por exemplo:
+```
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+```
 
 ## 6.4 Criando layouts flexíveis sem necessidade de Media Queries
 
