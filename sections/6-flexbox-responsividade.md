@@ -47,3 +47,9 @@ As ferramentas de desenvolvedor (DevTools) dos navegadores são essenciais para 
 
 
 
+Referências:
+
+https://developer.chrome.com/docs/devtools?hl=pt-br
+https://firefox-source-docs.mozilla.org/devtools-user/responsive_design_mode/index.html
+https://www.smashingmagazine.com/2018/04/best-practices-grid-layout/
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_media_queries/Using_media_queries
