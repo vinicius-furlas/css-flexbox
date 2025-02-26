@@ -98,8 +98,50 @@
     ```
       4.5 **`flex` – Atalho para `flex-grow`, `flex-shrink` e `flex-basis`**
 
-      A propriedade flex do CSS, define como um ítem será posicionado para no espaço disponível dentro de seu container.	a
+      A propriedade flex do CSS, define como um ítem será posicionado para no espaço disponível dentro de seu container.
+    ```
+    <div class="container">
+      <div class="item" style="flex: 1 1 100px">Item 1</div>
+      <div class="item" style="flex: 2 1 200px">Item 2</div>
+      <div class="item" style="flex: 1 0 50%">Item 3</div>
+    </div>
+    ```
+    ```
+    .container {
+       display: flex;
+       gap: 10px;
+     }
+     
+     .item {
+       background-color: #f4f4f4;
+       padding: 20px;
+       border: 1px solid #ccc;
+     }
+    ```
 
       4.6 **`align-self` – Alinhamento individual dos itens**
 
       A propriedade **CSS**`align-self` alinha itens-flex da linha flex alvo, sobreescrevendo o valor `align-items`. Se alguma dos eixos das margens do dado item está estabelecido como `auto`, então `align-self` é ignorado.
+    ```
+    <div class="container">
+      <div class="item" style="align-self: flex-start">Item 1 (Topo)</div>
+      <div class="item" style="align-self: center">Item 2 (Centro)</div>
+      <div class="item" style="align-self: flex-end">Item 3 (Base)</div>
+    </div>
+    ```
+    ```
+    .container {
+       display: flex;
+       align-items: stretch; /* Alinhamento padrão */
+       height: 200px; /* Altura fixa para visualizar o alinhamento */
+       gap: 10px;
+     }
+     
+     .item {
+       background-color: #f4f4f4;
+       padding: 20px;
+       border: 1px solid #ccc;
+       width: 100px;
+     }
+    ```
+    
