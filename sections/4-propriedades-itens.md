@@ -52,27 +52,27 @@
 
       A propriedade **flex-shrink **define o fator de encolhimento flex de um item flex. Se o tamanho de todos os itens flex for maior que o contêiner flex, os itens flex podem encolher para se ajustar de acordo com seu valor. O espaço livre negativo de cada linha flex é distribuído entre os itens flex da linha que têm um valor maior que .**`flex-shrink`** `flex-shrink``flex-shrink``0`
 
-```
-<div class="container">
-  <div class="item" style="flex-shrink: 1">Item 1</div>
-  <div class="item" style="flex-shrink: 0">Item 2 (Não encolhe)</div>
-  <div class="item" style="flex-shrink: 1">Item 3</div>
-</div>
-```
-```
-.container {
-  display: flex;
-  gap: 10px;
-  width: 300px; /* Contêiner pequeno para forçar o encolhimento */
-}
-
-.item {
-  background-color: #f4f4f4;
-  padding: 20px;
-  border: 1px solid #ccc;
-  width: 150px; /* Largura inicial dos itens */
-}
-```
+     ```
+     <div class="container">
+       <div class="item" style="flex-shrink: 1">Item 1</div>
+       <div class="item" style="flex-shrink: 0">Item 2 (Não encolhe)</div>
+       <div class="item" style="flex-shrink: 1">Item 3</div>
+     </div>
+     ```
+     ```
+     .container {
+       display: flex;
+       gap: 10px;
+       width: 300px; /* Contêiner pequeno para forçar o encolhimento */
+     }
+     
+     .item {
+       background-color: #f4f4f4;
+       padding: 20px;
+       border: 1px solid #ccc;
+       width: 150px; /* Largura inicial dos itens */
+     }
+     ```
 
       4.4 **`flex-basis` – Tamanho inicial do item**
 
