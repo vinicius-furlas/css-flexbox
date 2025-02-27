@@ -63,14 +63,14 @@
      .container {
        display: flex;
        gap: 10px;
-       width: 300px; /* Contêiner pequeno para forçar o encolhimento */
+       width: 300px; 
      }
      
      .item {
        background-color: #f4f4f4;
        padding: 20px;
        border: 1px solid #ccc;
-       width: 150px; /* Largura inicial dos itens */
+       width: 150px; 
      }
      ```
 
@@ -132,8 +132,8 @@
     ```
     .container {
        display: flex;
-       align-items: stretch; /* Alinhamento padrão */
-       height: 200px; /* Altura fixa para visualizar o alinhamento */
+       align-items: stretch; 
+       height: 200px; 
        gap: 10px;
      }
      
