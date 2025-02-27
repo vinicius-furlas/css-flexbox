@@ -1,3 +1,5 @@
+# 1. Introdução ao CSS Flexbox
+
 🔹 **1.1 O que é Flexbox?**
     Por muito tempo, as únicas  ferramentas disponíveis para criar leiautes em CSS e posicionar  elementos com boa compatibilidade entre browsers eram float e position.  Porém, essas ferramentas possuem algumas limitações muito frustrantes,  especialmente no que diz respeito à responsividade. Algumas tarefas que  consideramos básicas em um leiaute, como centralização vertical de um  elemento-filho com relação a um elemento-pai ou fazer com que  elementos-filhos ocupem a mesma quantidade de espaço, ou colunas terem o mesmo tamanho independente da quantidade de conteúdo interno, eram  impossíveis ou muito difíceis de serem manejadas com floats ou position, ao menos de forma prática e flexível. A ferramenta Flexbox (de Flexible Box) foi criada para tornar essas tarefas mais simples e funcionais: os filhos de um elemento com Flexbox podem se posicionar em qualquer  direção e pode ter dimensões flexíveis para se adaptar.
 
