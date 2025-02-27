@@ -146,3 +146,7 @@ Crie uma página de login com campos de entrada e botão de envio.
 **8.6 Desafio avançado: Reproduzir um layout de site real com Flexbox**
 
 Escolha um site real e tente reproduzir seu layout usando apenas Flexbox. Isso ajudará a consolidar todos os conceitos aprendidos.
+
+Referências:
+https://www.w3schools.com/html/default.asp
+https://www.w3schools.com/css/default.asp
