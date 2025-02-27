@@ -9,7 +9,7 @@
      <div class="item">Item 2</div>
      <div class="item">Item 3</div>
    </div>
-```
+   ```
 
    3.2 **`flex-wrap` – Quebra de linha dos itens**
 
