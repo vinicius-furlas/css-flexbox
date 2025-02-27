@@ -1,4 +1,4 @@
-3. **Propriedades do Contêiner Flexível**
+# 3. Propriedades do Contêiner Flexível
 
    3.1 **`flex-direction` – Direção dos elementos**
 
