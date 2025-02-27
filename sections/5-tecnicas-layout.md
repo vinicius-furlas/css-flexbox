@@ -8,7 +8,7 @@ Um layout de coluna responsivo é ideal para organizar conteúdo verticalmente, 
 .container {
   display: flex;
   flex-direction: column;
-  gap: 10px; /* Espaçamento entre os itens */
+  gap: 10px; 
 }
 ```
 
@@ -21,14 +21,14 @@ Um layout de linha é perfeito para menus de navegação, galerias de imagens ou
 .container {
   display: flex;
   flex-direction: row;
-  gap: 10px; /* Espaçamento entre os itens */
+  gap: 10px; 
 }
 
 .item {
   background-color: #f4f4f4;
   padding: 20px;
   border: 1px solid #ccc;
-  flex: 1; /* Distribui o espaço igualmente */
+  flex: 1; 
 }
 ```
 
@@ -39,9 +39,9 @@ Centralizar elementos vertical e horizontalmente é uma das tarefas mais comuns 
 ```
 .container {
   display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
-  height: 100vh; /* Altura total da tela */
+  justify-content: center;
+  align-items: center; 
+  height: 100vh;
 }
 ```
 
@@ -52,7 +52,7 @@ Um menu de navegação flexível é essencial para sites responsivos. Com Flexbo
 ```
 .menu {
   display: flex;
-  justify-content: space-around; /* Distribui os itens igualmente */
+  justify-content: space-around; 
   background-color: #333;
   padding: 10px;
 }
@@ -64,14 +64,14 @@ Um grid de cards é perfeito para exibir produtos, posts de blog ou qualquer con
 .grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px; /* Espaçamento entre os cards */
+  gap: 10px; 
 }
 
 .card {
   background-color: #f4f4f4;
   padding: 20px;
   border: 1px solid #ccc;
-  flex: 1 1 calc(33.333% - 20px); /* 3 colunas com espaçamento */
+  flex: 1 1 calc(33.333% - 20px); 
   box-sizing: border-box;
 }
 ```
