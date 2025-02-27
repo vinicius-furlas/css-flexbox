@@ -143,3 +143,9 @@
      width: 100px;
    }
    ```
+
+Referências:
+
+https://www.w3schools.com/cssref/css3_pr_flex-direction.php
+https://www.w3schools.com/cssref/css3_pr_flex-flow.php
+https://www.w3schools.com/cssref/css3_pr_align-items.php
