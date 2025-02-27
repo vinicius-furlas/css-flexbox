@@ -26,7 +26,15 @@
    3.2 **`flex-wrap` – Quebra de linha dos itens**
 
    Define se os itens devem quebrar ou não a linha. **Por padrão eles não quebram linha**, isso faz com que os flex itens sejam compactados além do limite do conteúdo.
-
+   ```
+      <div class="container">
+     <div class="item">Item 1</div>
+     <div class="item">Item 2</div>
+     <div class="item">Item 3</div>
+     <div class="item">Item 4</div>
+     <div class="item">Item 5</div>
+   </div>
+   ```
    3.3 **`flex-flow` – Atalho para `flex-direction` e `flex-wrap`**
 
    **O flex-flow é um atalho para as propriedades flex-direction e flex-wrap**. Você não verá muito o seu uso, pois geralmente quando mudamos o  flex-direction para column, mantemos o padrão do flex-wrap que é nowrap. E quando mudamos o flex-wrap para wrap, mantemos o padrão do  flex-direction que é row. Já o [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) **`flex-wrap`** define se os itens flexíveis são forçados a ficarem na mesma linha ou  se podem ser quebradas em varias linhas. Se o argumento for valido, ele  define a direção em que as linhas são empilhadas.
