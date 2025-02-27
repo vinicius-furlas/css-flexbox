@@ -144,4 +144,9 @@
        width: 100px;
      }
     ```
-    
+
+Referências:
+
+https://www.w3schools.com/cssref/css3_pr_order.php
+https://www.w3schools.com/cssref/css3_pr_flex.php
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/align-self
