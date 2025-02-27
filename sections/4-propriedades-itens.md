@@ -1,4 +1,4 @@
- 4. **Propriedades dos Itens Flexíveis**
+ # 4. Propriedades dos Itens Flexíveis
 
       4.1 **`order` – Definição de ordem de exibição**
 
