@@ -12,8 +12,8 @@ No Flexbox, cada elemento é envolto em uma "caixa flexível" que permite o ajus
 ```
 ```
 .container {
-  display: flex; /* Ativa o Flexbox */
-  gap: 10px; /* Espaçamento entre os itens */
+  display: flex; 
+  gap: 10px; 
 }
 
 .item {
@@ -38,7 +38,7 @@ O Flex Container **é um componente de layout que ajuda você a projetar e criar
 ```
 ```
 .container {
-  display: flex; /* Flex Container */
+  display: flex; 
   gap: 10px;
 }
 
@@ -46,11 +46,11 @@ O Flex Container **é um componente de layout que ajuda você a projetar e criar
   background-color: #f4f4f4;
   padding: 20px;
   border: 1px solid #ccc;
-  flex: 1; /* Itens crescem igualmente */
+  flex: 1; 
 }
 
 .item:nth-child(2) {
-  display: flex; /* Este item também é um Flex Container */
+  display: flex; 
   flex-direction: column;
   gap: 5px;
 }
@@ -74,10 +74,10 @@ O **display**: **flex** funciona de uma maneira diferente dos outros **displays*
 ```
 ```
 .container {
-  display: flex; /* Ativa o Flexbox */
-  justify-content: space-between; /* Distribui o espaço entre os itens */
-  align-items: center; /* Centraliza os itens verticalmente */
-  height: 200px; /* Altura fixa para visualizar o alinhamento */
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  height: 200px; 
   background-color: #eee;
   padding: 10px;
 }
@@ -86,6 +86,6 @@ O **display**: **flex** funciona de uma maneira diferente dos outros **displays*
   background-color: #f4f4f4;
   padding: 20px;
   border: 1px solid #ccc;
-  width: 100px; /* Largura fixa dos itens */
+  width: 100px;
 }
 ```
