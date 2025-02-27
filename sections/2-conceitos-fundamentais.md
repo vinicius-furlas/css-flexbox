@@ -89,3 +89,9 @@ O **display**: **flex** funciona de uma maneira diferente dos outros **displays*
   width: 100px;
 }
 ```
+
+Referências: 
+
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_flexible_box_layout
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://www.w3schools.com/css/css3_flexbox.asp
