@@ -3,14 +3,26 @@
    3.1 **`flex-direction` – Direção dos elementos**
 
    A propriedade flex-direction **permite alterar a direção na qual os elementos flex serão exibidos ao longo do eixo principal**. Definindo a propriedade flex-direction como row-reverse (linha reversa) ainda teremos os elementos dispostos em uma linha, entretanto, as  linhas inicial e final serão trocadas.
-   ```html
+   ```
    <div class="container">
      <div class="item">Item 1</div>
      <div class="item">Item 2</div>
      <div class="item">Item 3</div>
    </div>
    ```
-
+   ```
+   .container {
+     display: flex;
+     flex-direction: row; /* Experimente mudar para column, row-reverse, column-reverse */
+     gap: 10px;
+   }
+   
+   .item {
+     background-color: #f4f4f4;
+     padding: 20px;
+     border: 1px solid #ccc;
+   }
+   ```
    3.2 **`flex-wrap` – Quebra de linha dos itens**
 
    Define se os itens devem quebrar ou não a linha. **Por padrão eles não quebram linha**, isso faz com que os flex itens sejam compactados além do limite do conteúdo.
