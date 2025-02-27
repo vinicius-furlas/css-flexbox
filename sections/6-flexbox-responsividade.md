@@ -38,7 +38,7 @@ Com Flexbox, você pode criar layouts que se ajustam automaticamente ao espaço 
   background-color: #f4f4f4;
   padding: 20px;
   border: 1px solid #ccc;
-  flex: 1 1 auto; /* Itens crescem e encolhem conforme o espaço */
+  flex: 1 1 auto; 
 }
 ```
 
