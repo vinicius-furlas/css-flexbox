@@ -76,7 +76,7 @@
    ```
    .container {
      display: flex;
-     justify-content: center; /* Experimente mudar para flex-end, space-between, etc. */
+     justify-content: center; 
      gap: 10px;
    }
    
@@ -102,8 +102,8 @@
    ```
    .container {
      display: flex;
-     align-items: center; /* Experimente mudar para flex-start, flex-end, etc. */
-     height: 200px; /* Altura fixa para visualizar o alinhamento */
+     align-items: center; 
+     height: 200px;
      gap: 10px;
    }
    
@@ -131,8 +131,8 @@
    .container {
      display: flex;
      flex-wrap: wrap;
-     align-content: space-between; /* Experimente mudar para center, flex-start, etc. */
-     height: 200px; /* Altura fixa para visualizar o alinhamento */
+     align-content: space-between; 
+     height: 200px;
      gap: 10px;
    }
    
